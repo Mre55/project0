@@ -1,0 +1,156 @@
+
+#top {
+    background-color: #18181d;
+    font-weight: normal;
+    font-size: large;
+    margin: 0 auto;
+    padding: 30px;
+    color:white;
+}
+
+#middle {
+    background-color: red;
+    padding:30px;
+    text-align:justify;
+}
+
+#bottom {
+    background-color: green;
+    padding:1px;
+}
+
+table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width:50%;
+        margin-left:25%;
+    }
+
+.middletable h3{
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color:darkred;
+}
+
+
+.topright {
+    float: right;
+    margin-top: -40px;
+    padding-right: 15%;
+
+}
+
+.topright h2 {
+    color:white;
+}
+
+/*.circle {
+    width: 200px;
+    height: 200px;
+    background-image: 'E:\PDFs\Programming\Web Programming with Python and JavaScript\Projects\project0\project0\images\m.jpg';
+    background-size: cover;
+    display: block;
+    border-radius: 200px;
+}*/
+
+.topleft {
+    float: left;
+    margin-top: -35px;
+    width: 50%;
+}
+
+.topleft h2 {
+    color:white;
+}
+
+.photo {
+    float: right;
+    margin-top: -63px;
+    margin-right: -60px;
+}
+/*
+.bottom1 {
+    padding: 10px;
+}
+
+.bottom1 h4, h6, h5 {
+    display: inline
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    min-width: 250px;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+
+
+
+
+
+
+
+footer {
+	 background-color: #0a0a0ca1;
+    color: #fff4ec;
+    margin: 10px;
+    border-top: #e96011 1px solid;
+    position: relative;
+    bottom: -300px;
+    height: 30px;
+
+}
+
+footer .footerContainer{
+	margin-top: 10px;
+}
+
+footer a{
+	color: #fff4ec;
+	text-decoration: none;
+}
+
+footer ul{
+	padding: 0;
+	margin: 0;
+}
+
+footer li{
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+ . leftFooter{
+	float: left;
+	margin-top: -20px;
+}
